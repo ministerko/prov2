@@ -38,6 +38,7 @@ To get started with MyProtofolio V2 locally, follow these steps:
 ## Project Structure 📂
 
 Here's an overview of the project structure:
+```bash
 
 myprotofolio-v2/
 ├── public/
@@ -54,7 +55,7 @@ myprotofolio-v2/
 ├── .gitignore
 ├── package.json
 └── README.md
-
+```
 ## Usage 🛠️
 
 - **Loading Animation**: Enjoy a smooth loading experience with animated dots while your content loads.
