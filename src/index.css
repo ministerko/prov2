@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @keyframes bounce-dot {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
@@ -16,4 +20,9 @@
 
 .animate-bounce-dot {
   animation: bounce-dot 1.4s infinite ease-in-out;
+}
+/* Define custom green filter */
+.filter-green-filter {
+  filter: invert(0%) sepia(100%) saturate(1000%) hue-rotate(90deg)
+    brightness(90%) contrast(90%);
 }
